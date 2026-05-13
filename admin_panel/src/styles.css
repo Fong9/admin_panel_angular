@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all cubic-bezier(0.67, 1.02, 0.27,-0.5) 500ms;
+}
+body {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 21px;
+    padding: 10px;
+}

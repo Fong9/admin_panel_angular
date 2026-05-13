@@ -1,0 +1,34 @@
+.box {
+    background-color: #ffdaa9;
+    padding: 5px; margin-top: 20px;
+}
+.box h2 {
+    background-color: #935121;
+    color: yellow; text-align: center;
+    font: bold 15px sans-serif; padding: 8px;
+}
+.box ul {
+    margin-top: 5px;  background-color: #f6a262;
+    padding: 5px;
+}
+.box ul li {
+    list-style-type: none;
+    border-bottom: 5px solid #f6a262;
+}
+.box ul li:last-child{
+    border-bottom: 0;
+}
+.box ul li a {
+    background-color: #ffb74e;
+    text-decoration: none;
+    color: brown;
+    font-size: 16px;
+    display: block;
+    padding: 8px;
+    text-align: left;
+}
+.box ul li a:hover {
+    background-color: #ffc571;
+    color: black;
+    padding-left: 30px;
+}
